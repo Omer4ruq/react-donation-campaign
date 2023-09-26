@@ -3,9 +3,13 @@ import { NavLink, useLoaderData, useParams } from "react-router-dom";
 import { getStoredDonation } from "../../utility/localstorage";
 import { list } from "postcss";
 import Header from "../Header/Header";
+import DetailsPage from "../detailsPage/DetailsPage";
+import Listcard from "../Listcard/Listcard";
 
 const Donated = () => {
   const donations = useLoaderData();
+
+  const [dataLength, setDatalength] = useState(4);
 
   const [donationGiven, setDonationGiven] = useState([]);
   useEffect(() => {
@@ -29,34 +33,21 @@ const Donated = () => {
   }, []);
   return (
     <div>
-      <Header></Header>
       <h2>i donated: {donationGiven.length}</h2>
       <h2>{donationGiven.title}</h2>
       <ul className="grid grid-cols-2 ">
-        {donationGiven.map((donate) => (
-          <li key={donate.id}>
-            <div>
-              <div className="card card-side bg-base-100 shadow-xl">
-                <figure>
-                  <img src={donate.picture} alt="Movie" />
-                </figure>
-                <div className="card-body">
-                  <h2 className="card-title">{donate.category}</h2>
-                  <h1>{donate.title}</h1>
-                  <h1>{donate.price}</h1>
-                  <div className="card-actions">
-                    <button className="btn btn-primary">
-                      <NavLink to="/detailspage" donate={donate}>
-                        View Details
-                      </NavLink>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
+        {donationGiven.slice(0, dataLength).map((donate) => (
+          <DetailsPage key={donate.id} donate={donate}></DetailsPage>
         ))}
       </ul>
+      <div className={dataLength === donationGiven.length && "hidden"}>
+        <button
+          onClick={() => setDatalength(donationGiven.length)}
+          className="btn btn-secondary "
+        >
+          See All
+        </button>
+      </div>
     </div>
   );
 };

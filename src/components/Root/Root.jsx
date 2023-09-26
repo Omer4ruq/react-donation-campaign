@@ -6,6 +6,7 @@ import DonationCards from "../DonationCards/DonationCards";
 const Root = () => {
   return (
     <div>
+      <Header></Header>
       <Outlet></Outlet>
     </div>
   );

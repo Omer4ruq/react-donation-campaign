@@ -7,6 +7,7 @@ import Root from "./components/Root/Root";
 import Home from "./components/Home/Home";
 import Donated from "./components/Donated/Donated";
 import DetailsPage from "./components/detailsPage/DetailsPage";
+import Listcard from "./components/Listcard/Listcard";
 
 const router = createBrowserRouter([
   {
@@ -24,8 +25,9 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "/detailspage",
-        element: <DetailsPage></DetailsPage>,
+        path: "/listcard/:id",
+        element: <Listcard></Listcard>,
+        loader: () => fetch("../db.json"),
       },
     ],
   },
