@@ -4,7 +4,8 @@ import { parse } from "postcss";
 import Listcard from "../Listcard/Listcard";
 
 const DonationCard = ({ donation }) => {
-  const { picture, category, title, card_bg, id } = donation;
+  const { picture, category, title, card_bg, id, text_button_bg, category_bg } =
+    donation;
   // const { id } = useParams();
   // console.log(id + "pp");
 
@@ -24,8 +25,17 @@ const DonationCard = ({ donation }) => {
               <img className=" w-auto" src={picture} alt="Shoes" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">{category}</h2>
-              <p>{title}</p>
+              <h2
+                style={{
+                  backgroundColor: text_button_bg,
+                  width: 100,
+                  color: category_bg,
+                }}
+                className="card-title items-center pl-1"
+              >
+                {category}
+              </h2>
+              <p className="font-semibold text-xl">{title}</p>
             </div>
           </div>
         </div>

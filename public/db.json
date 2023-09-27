@@ -5,8 +5,8 @@
     "title": "Clean water for children",
     "category": "Health",
     "category_bg": "#0052FF",
-    "card_bg": "#0052FF",
-    "text_button_bg": "#2ecc71",
+    "card_bg": "#c4d7ff",
+    "text_button_bg": "#78a3ff",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Vivamus tincidunt lacinia libero, non cursus felis tristique id.",
     "price": "$199.99"
   },
@@ -15,9 +15,9 @@
     "id": "2",
     "title": "Good educationon",
     "category": "Education",
-    "category_bg": "#e74c3c",
-    "card_bg": "#ff444a",
-    "text_button_bg": "#c0392b",
+    "category_bg": "#FF444A",
+    "card_bg": "#ff9296",
+    "text_button_bg": "#ffa6a9",
     "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     "price": "$49.99"
   },
