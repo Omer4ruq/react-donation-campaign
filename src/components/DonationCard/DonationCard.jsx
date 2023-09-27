@@ -18,24 +18,31 @@ const DonationCard = ({ donation }) => {
 
   return (
     <NavLink to={`/listcard/${id}`}>
-      <div style={{ backgroundColor: card_bg, width: 300 }}>
-        <div className="bg-opacity-50 ">
-          <div>
-            <figure>
-              <img className=" w-auto" src={picture} alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2
-                style={{
-                  backgroundColor: text_button_bg,
-                  width: 100,
-                  color: category_bg,
-                }}
-                className="card-title items-center pl-1"
-              >
-                {category}
-              </h2>
-              <p className="font-semibold text-xl">{title}</p>
+      <div className="rounded-md">
+        <div style={{ backgroundColor: card_bg, width: 300, height: 300 }}>
+          <div className="bg-opacity-50 ">
+            <div>
+              <figure>
+                <img className=" w-auto" src={picture} alt="Shoes" />
+              </figure>
+              <div className="card-body">
+                <h2
+                  style={{
+                    backgroundColor: text_button_bg,
+                    width: 100,
+                    color: category_bg,
+                  }}
+                  className="card-title items-center pl-1 rounded-md"
+                >
+                  {category}
+                </h2>
+                <h1
+                  style={{ color: category_bg }}
+                  className="font-semibold text-xl"
+                >
+                  {title}
+                </h1>
+              </div>
             </div>
           </div>
         </div>

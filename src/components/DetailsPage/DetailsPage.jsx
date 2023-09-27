@@ -9,7 +9,17 @@ const DetailsPage = ({ donate }) => {
   // const idInt = parseInt(id);
   // const donate = donates.find((donate) => donate.id == idInt);
   // console.log(donate);
-  const { picture, category, title, price, id, description } = donate;
+  const {
+    picture,
+    category,
+    title,
+    price,
+    id,
+    description,
+    card_bg,
+    text_button_bg,
+    category_bg,
+  } = donate;
 
   return (
     // <div>
@@ -36,17 +46,39 @@ const DetailsPage = ({ donate }) => {
     <div>
       <li key={donate.id}>
         <div>
-          <div className="card card-side bg-base-100 shadow-xl background: rgba(0, 0, 0, 0.5) absolute;">
+          <div
+            style={{ backgroundColor: card_bg }}
+            className="card card-side bg-base-100 shadow-xl "
+          >
             <figure>
-              <img src={picture} alt="Movie" />
+              <img className="h-56" src={picture} alt="Movie" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">{category}</h2>
-              <h1>{title}</h1>
-              <h1>{price}</h1>
+              <h2
+                style={{
+                  backgroundColor: text_button_bg,
+                  width: 100,
+                  color: category_bg,
+                }}
+                className=" items-center pl-1 rounded-md"
+              >
+                {category}
+              </h2>
+              <h1 className="card-title text-2xl font-bold">{title}</h1>
+              <h1
+                style={{ color: category_bg }}
+                className="font-semibold text-xl"
+              >
+                {price}
+              </h1>
               <div className="card-actions">
                 <Link to={`/listcard/${id}`}>
-                  <button className="btn btn-primary">View Details</button>
+                  <button
+                    style={{ background: category_bg }}
+                    className="btn btn-primary border-none"
+                  >
+                    View Details
+                  </button>
                 </Link>
               </div>
             </div>

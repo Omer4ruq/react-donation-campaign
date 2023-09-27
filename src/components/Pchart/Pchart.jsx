@@ -55,14 +55,14 @@ const Pchart = () => {
 
   return (
     <div>
-      <PieChart width={400} height={600}>
+      <PieChart width={1000} height={800}>
         <Pie
           data={data}
-          cx={200}
-          cy={200}
+          cx={700}
+          cy={300}
           labelLine={false}
           label={renderCustomizedLabel}
-          outerRadius={80}
+          outerRadius={200}
           fill="#8884d8"
           dataKey="value"
         >

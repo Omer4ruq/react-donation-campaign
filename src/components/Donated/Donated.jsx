@@ -35,18 +35,20 @@ const Donated = () => {
     <div>
       <h2>i donated: {donationGiven.length}</h2>
       <h2>{donationGiven.title}</h2>
-      <ul className="grid grid-cols-2 ">
+      <ul className="grid grid-cols-2 gap-3">
         {donationGiven.slice(0, dataLength).map((donate) => (
           <DetailsPage key={donate.id} donate={donate}></DetailsPage>
         ))}
       </ul>
-      <div className={dataLength === donationGiven.length && "hidden"}>
-        <button
-          onClick={() => setDatalength(donationGiven.length)}
-          className="btn btn-secondary "
-        >
-          See All
-        </button>
+      <div className=" text-center  mt-4">
+        <div className={dataLength === donationGiven.length && "hidden"}>
+          <button
+            onClick={() => setDatalength(donationGiven.length)}
+            className="btn btn-secondary bg-green-700"
+          >
+            See All
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@
     "category_bg": "#0052FF",
     "card_bg": "#c4d7ff",
     "text_button_bg": "#78a3ff",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Vivamus tincidunt lacinia libero, non cursus felis tristique id.",
+    "description": "At our charity, we believe that good health is a universal right. Your donations empower us to provide essential healthcare services to those who need it most. Together, we can build a healthier, happier world where everyone has access to medical care, preventive programs, and the support they deserve. Your generosity becomes the heartbeat of our mission to ensure that no one is left behind in the pursuit of well-being.",
     "price": "$199.99"
   },
   {
@@ -16,9 +16,9 @@
     "title": "Good educationon",
     "category": "Education",
     "category_bg": "#FF444A",
-    "card_bg": "#ff9296",
-    "text_button_bg": "#ffa6a9",
-    "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    "card_bg": "#ffe1e2",
+    "text_button_bg": "#ffcdcf",
+    "description": "Join us in unlocking the transformative power of education. Your contributions enable us to create learning opportunities for those facing barriers to access. By donating, you become a beacon of hope for children and adults striving for knowledge, empowerment, and a brighter future. Together, let's build a world where education is a beacon of hope, guiding individuals toward limitless possibilities.",
     "price": "$49.99"
   },
 
@@ -28,9 +28,9 @@
     "id": "3",
     "category": "Clothing",
     "category_bg": "#79C23F",
-    "card_bg": "#79C23F",
-    "text_button_bg": "#79C23F",
-    "description": "Fusce at feugiat justo. Vivamus in augue sed nulla venenatis scelerisque nec eget felis.",
+    "card_bg": "#e1f1d4",
+    "text_button_bg": "#cce8b6",
+    "description": "Through your generosity, we clothe those in need with dignity and warmth. Your donations contribute to our mission of providing essential clothing to individuals facing hardship. Join us in weaving a tapestry of compassion and style, ensuring that everyone, regardless of circumstance, has access to the basic necessity of clothing. Together, we dress the world in compassion.",
     "price": "$29.99"
   },
 
@@ -40,9 +40,9 @@
     "title": "Better Food for Everyone",
     "category": "Food",
     "category_bg": "#F87147",
-    "card_bg": "#F87147",
-    "text_button_bg": "#F87147",
-    "description": "Sed convallis odio vel augue hendrerit, in vehicula justo laoreet. Sed ut leo tincidunt, facilisis arcu nec, scelerisque lorem.",
+    "card_bg": "#fdd7cb",
+    "text_button_bg": "#fcc8b8",
+    "description": "Hunger knows no boundaries, but neither does compassion. Your support allows us to provide nourishing meals to those facing food insecurity. By donating, you become a part of our commitment to ensuring that no one goes to bed hungry. Let's turn the tables on hunger, one meal at a time, creating a world where everyone has a seat at the table and the sustenance to thrive.",
     "price": "$149.99"
   },
   {
@@ -51,10 +51,10 @@
     "title": "Better Food for Everyone",
     "category": "Food",
     "category_bg": "#F87147",
-    "card_bg": "#F87147",
-    "text_button_bg": "#F87147",
-    "description": "Donec eu justo ut ex efficitur ullamcorper. Vestibulum tincidunt velit eu interdum malesuada.",
-    "price": "$79.99"
+    "card_bg": "#fdd7cb",
+    "text_button_bg": "#fcc8b8",
+    "description": "Hunger knows no boundaries, but neither does compassion. Your support allows us to provide nourishing meals to those facing food insecurity. By donating, you become a part of our commitment to ensuring that no one goes to bed hungry. Let's turn the tables on hunger, one meal at a time, creating a world where everyone has a seat at the table and the sustenance to thrive.",
+    "price": "$149.99"
   },
   {
     "picture": "https://i.ibb.co/qDjZrGw/Clothing.png",
@@ -62,21 +62,21 @@
     "id": "6",
     "category": "Clothing",
     "category_bg": "#79C23F",
-    "card_bg": "#79C23F",
-    "text_button_bg": "#79C23F",
-    "description": "Phasellus eu metus ac mi sollicitudin fringilla. Sed et odio ac odio feugiat varius.",
-    "price": "$19.99"
+    "card_bg": "#e1f1d4",
+    "text_button_bg": "#cce8b6",
+    "description": "Through your generosity, we clothe those in need with dignity and warmth. Your donations contribute to our mission of providing essential clothing to individuals facing hardship. Join us in weaving a tapestry of compassion and style, ensuring that everyone, regardless of circumstance, has access to the basic necessity of clothing. Together, we dress the world in compassion.",
+    "price": "$29.99"
   },
   {
     "picture": "https://i.ibb.co/TtKs10Z/Education.png",
     "id": "7",
     "title": "Good educationon",
     "category": "Education",
-    "category_bg": "#e74c3c",
-    "card_bg": "#ff444a",
-    "text_button_bg": "#c0392b",
-    "description": "Integer nec lorem vitae massa maximus luctus. Maecenas nec metus non odio venenatis laoreet.",
-    "price": "$39.99"
+    "category_bg": "#FF444A",
+    "card_bg": "#ffe1e2",
+    "text_button_bg": "#ffcdcf",
+    "description": "Join us in unlocking the transformative power of education. Your contributions enable us to create learning opportunities for those facing barriers to access. By donating, you become a beacon of hope for children and adults striving for knowledge, empowerment, and a brighter future. Together, let's build a world where education is a beacon of hope, guiding individuals toward limitless possibilities.",
+    "price": "$49.99"
   },
   {
     "picture": "https://i.ibb.co/HHL521G/Health.png",
@@ -84,10 +84,10 @@
     "title": "Clean water for children",
     "category": "Health",
     "category_bg": "#0052FF",
-    "card_bg": "#0052FF",
-    "text_button_bg": "#2ecc71",
-    "description": "Cras congue lectus eget velit posuere interdum. Vivamus ac erat sit amet justo hendrerit euismod.",
-    "price": "$249.99"
+    "card_bg": "#c4d7ff",
+    "text_button_bg": "#78a3ff",
+    "description": "At our charity, we believe that good health is a universal right. Your donations empower us to provide essential healthcare services to those who need it most. Together, we can build a healthier, happier world where everyone has access to medical care, preventive programs, and the support they deserve. Your generosity becomes the heartbeat of our mission to ensure that no one is left behind in the pursuit of well-being.",
+    "price": "$199.99"
   },
   {
     "picture": "https://i.ibb.co/HHL521G/Health.png",
@@ -95,9 +95,9 @@
     "title": "Clean water for children",
     "category": "Health",
     "category_bg": "#0052FF",
-    "card_bg": "#0052FF",
-    "text_button_bg": "#2ecc71",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Vivamus tincidunt lacinia libero, non cursus felis tristique id.",
+    "card_bg": "#c4d7ff",
+    "text_button_bg": "#78a3ff",
+    "description": "At our charity, we believe that good health is a universal right. Your donations empower us to provide essential healthcare services to those who need it most. Together, we can build a healthier, happier world where everyone has access to medical care, preventive programs, and the support they deserve. Your generosity becomes the heartbeat of our mission to ensure that no one is left behind in the pursuit of well-being.",
     "price": "$199.99"
   },
   {
@@ -105,10 +105,10 @@
     "id": "10",
     "title": "Good educationon",
     "category": "Education",
-    "category_bg": "#e74c3c",
-    "card_bg": "#ff444a",
-    "text_button_bg": "#c0392b",
-    "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    "category_bg": "#FF444A",
+    "card_bg": "#ffe1e2",
+    "text_button_bg": "#ffcdcf",
+    "description": "Join us in unlocking the transformative power of education. Your contributions enable us to create learning opportunities for those facing barriers to access. By donating, you become a beacon of hope for children and adults striving for knowledge, empowerment, and a brighter future. Together, let's build a world where education is a beacon of hope, guiding individuals toward limitless possibilities.",
     "price": "$49.99"
   },
 
@@ -118,9 +118,9 @@
     "id": "11",
     "category": "Clothing",
     "category_bg": "#79C23F",
-    "card_bg": "#79C23F",
-    "text_button_bg": "#79C23F",
-    "description": "Fusce at feugiat justo. Vivamus in augue sed nulla venenatis scelerisque nec eget felis.",
+    "card_bg": "#e1f1d4",
+    "text_button_bg": "#cce8b6",
+    "description": "Through your generosity, we clothe those in need with dignity and warmth. Your donations contribute to our mission of providing essential clothing to individuals facing hardship. Join us in weaving a tapestry of compassion and style, ensuring that everyone, regardless of circumstance, has access to the basic necessity of clothing. Together, we dress the world in compassion.",
     "price": "$29.99"
   },
 
@@ -130,9 +130,9 @@
     "title": "Better Food for Everyone",
     "category": "Food",
     "category_bg": "#F87147",
-    "card_bg": "#F87147",
-    "text_button_bg": "#F87147",
-    "description": "Sed convallis odio vel augue hendrerit, in vehicula justo laoreet. Sed ut leo tincidunt, facilisis arcu nec, scelerisque lorem.",
+    "card_bg": "#fdd7cb",
+    "text_button_bg": "#fcc8b8",
+    "description": "Hunger knows no boundaries, but neither does compassion. Your support allows us to provide nourishing meals to those facing food insecurity. By donating, you become a part of our commitment to ensuring that no one goes to bed hungry. Let's turn the tables on hunger, one meal at a time, creating a world where everyone has a seat at the table and the sustenance to thrive.",
     "price": "$149.99"
   }
 ]
