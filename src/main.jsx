@@ -8,6 +8,9 @@ import Home from "./components/Home/Home";
 import Donated from "./components/Donated/Donated";
 import DetailsPage from "./components/detailsPage/DetailsPage";
 import Listcard from "./components/Listcard/Listcard";
+import Chart from "./components/Pchart/Pchart";
+import { PieChart } from "recharts";
+import Pchart from "./components/Pchart/Pchart";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +30,12 @@ const router = createBrowserRouter([
       {
         path: "/listcard/:id",
         element: <Listcard></Listcard>,
+        loader: () => fetch("../db.json"),
+      },
+
+      {
+        path: "/chart",
+        element: <Pchart></Pchart>,
         loader: () => fetch("../db.json"),
       },
     ],

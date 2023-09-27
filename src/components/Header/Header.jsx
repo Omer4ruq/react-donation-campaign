@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Header = () => {
+const Header = ({ donationGiven }) => {
   return (
     <div className="navbar bg-base-100">
       <div className="flex-1">
@@ -16,7 +16,7 @@ const Header = () => {
             <NavLink to="/donated">Donation</NavLink>
           </li>
           <li>
-            <a>Statistics</a>
+            <NavLink to="/chart">Statistics</NavLink>
           </li>
           {/* <li>
             <details>

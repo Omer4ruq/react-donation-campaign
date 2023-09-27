@@ -36,7 +36,7 @@ const DetailsPage = ({ donate }) => {
     <div>
       <li key={donate.id}>
         <div>
-          <div className="card card-side bg-base-100 shadow-xl">
+          <div className="card card-side bg-base-100 shadow-xl background: rgba(0, 0, 0, 0.5) absolute;">
             <figure>
               <img src={picture} alt="Movie" />
             </figure>
