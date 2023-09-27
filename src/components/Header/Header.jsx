@@ -5,7 +5,7 @@ const Header = ({ donationGiven }) => {
   return (
     <div className="navbar bg-base-100">
       <div className="flex-1">
-        <img src="/public/images/Logo.png" alt="" />
+        <img src="/images/Logo.png" alt="" />
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
