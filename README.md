@@ -11,5 +11,5 @@ Currently, two official plugins are available:
 
 - This website contain donation cards where user can select any card and can read the details discription.
 
-- There is a donation button. by clicking the button user can donate. and everytime user click the donate button there will be an update in pie chart page.
-  - the donatated cards will show in a spearate page from where user can see his previous donation.
+- There is a donation button. by clicking the button user can donate. and everytime user click the donate .there will be an update in pie chart page.
+- the donatated cards will show in a spearate page from where user can see his previous donation.
