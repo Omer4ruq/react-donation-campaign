@@ -18,9 +18,12 @@ const DonationCard = ({ donation }) => {
 
   return (
     <NavLink to={`/listcard/${id}`}>
-      <div className="rounded-md">
-        <div style={{ backgroundColor: card_bg, width: 300, height: 300 }}>
-          <div className="bg-opacity-50 ">
+      <div>
+        <div
+          className="rounded-md"
+          style={{ backgroundColor: card_bg, width: 300, height: 300 }}
+        >
+          <div className="bg-opacity-50">
             <div>
               <figure>
                 <img className=" w-auto" src={picture} alt="Shoes" />
